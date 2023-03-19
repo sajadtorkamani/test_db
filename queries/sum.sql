@@ -1,3 +1,2 @@
-# Calculate the sum of all salaries for all rows
-select sum(salary)
-from salaries;
+# Find the lowest salary
+select min(salary) from salaries;
